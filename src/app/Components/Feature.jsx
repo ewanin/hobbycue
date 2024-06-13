@@ -64,7 +64,7 @@ const Feature = () => {
                 {data.map((value, index) => (
                     <div key={index} className='group' onMouseEnter={() => setHoverColors(prevState => prevState.map((val, idx) => idx === index ? true : val))}
                         onMouseLeave={() => setHoverColors(prevState => prevState.map((val, idx) => idx === index ? false : val))}>
-                        <div className={`border border-[#CED4DA] rounded-lg lg:px-11 px-6 lg:py-10 py-5 sm:w-[40vw] bg-white duration-300`}
+                        <div className={`border border-[#CED4DA] rounded-lg lg:px-11 px-6 lg:py-10 py-5 sm:w-[40vw] bg-white duration-300 h-full`}
                             style={{ backgroundColor: hoverColors[index] ? value.color : 'transparent', transition: 'background-color 0.3s ease-in-out' }}>
                             <div className='flex items-center gap-6'>
                                 <div className='duration-700' style={{ fill: hoverColors[index] ? "#FFF" : value.color }}>
