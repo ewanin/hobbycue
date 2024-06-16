@@ -1,3 +1,6 @@
+Project Link:
+https://clone-hobbycue.netlify.app/
+
 <img width="1440" alt="Desktop View" src="https://github.com/ewanin/hobbycue/assets/70193546/e41169b5-dc7d-46f0-a2f7-31bd72a001f5">
 
 ![Mobile VIew](https://github.com/ewanin/hobbycue/assets/70193546/ff5af213-ee76-4016-bff9-1499906ba2d5)
@@ -5,10 +8,9 @@
 
 
 Steps:
-
-Clone into VS Code
-npm i
-npm run dev
+1. Clone into VS Code
+2. npm i
+3. npm run dev
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
